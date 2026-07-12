@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/chat_provider.dart';
-import '../../auth/presentation/providers/auth_provider.dart';
-import '../../auth/presentation/widgets/guest_upgrade_dialog.dart';
-import '../../projects/presentation/providers/projects_provider.dart';
-import '../../projects/presentation/pages/projects_page.dart';
-import '../../settings/presentation/pages/settings_page.dart';
-import '../../settings/presentation/providers/settings_provider.dart';
+import 'package:fathom/features/auth/presentation/providers/auth_provider.dart';
+import 'package:fathom/features/auth/presentation/widgets/guest_upgrade_dialog.dart';
+import 'package:fathom/features/projects/presentation/providers/projects_provider.dart';
+import 'package:fathom/features/projects/presentation/pages/projects_page.dart';
+import 'package:fathom/features/settings/presentation/pages/settings_page.dart';
+import 'package:fathom/features/settings/presentation/providers/settings_provider.dart';
 import '../widgets/chat_bubble.dart';
 import '../widgets/chat_search.dart';
-import '../../../../core/constants/constants.dart';
+import 'package:fathom/core/constants/constants.dart';
 
 class ChatPage extends StatefulWidget {
   const ChatPage({super.key});

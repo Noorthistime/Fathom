@@ -30,7 +30,7 @@ class AppTheme {
       ),
       scaffoldBackgroundColor: const Color(0xFFF9F9FB),
       fontFamily: 'Inter',
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8.0)),
       ),
     );
@@ -53,7 +53,7 @@ class AppTheme {
       ),
       scaffoldBackgroundColor: const Color(0xFF11131A),
       fontFamily: 'Inter',
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8.0)),
       ),
     );
