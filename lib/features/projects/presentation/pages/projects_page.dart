@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/projects_provider.dart';
-import '../../auth/presentation/providers/auth_provider.dart';
-import '../../chat/presentation/providers/chat_provider.dart';
+import 'package:fathom/features/auth/presentation/providers/auth_provider.dart';
+import 'package:fathom/features/chat/presentation/providers/chat_provider.dart';
 
 class ProjectsPage extends StatefulWidget {
   const ProjectsPage({super.key});

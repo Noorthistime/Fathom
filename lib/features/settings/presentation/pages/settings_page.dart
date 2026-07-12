@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/settings_provider.dart';
-import '../../auth/presentation/providers/auth_provider.dart';
-import '../../../../core/theme/app_theme.dart';
-import '../../../../shared/widgets/custom_button.dart';
+import 'package:fathom/features/auth/presentation/providers/auth_provider.dart';
+import 'package:fathom/core/theme/app_theme.dart';
+import 'package:fathom/shared/widgets/custom_button.dart';
 
 class SettingsPage extends StatefulWidget {
   const SettingsPage({super.key});
