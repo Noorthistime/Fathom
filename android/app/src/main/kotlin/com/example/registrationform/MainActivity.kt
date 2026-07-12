@@ -1,4 +1,4 @@
-package com.fathom.fathom
+package com.example.registrationform
 
 import io.flutter.embedding.android.FlutterActivity
 
