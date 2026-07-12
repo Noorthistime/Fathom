@@ -52,7 +52,6 @@ class SettingsProvider extends ChangeNotifier {
   Future<void> updateThemeMode(String theme) async {
     _settings = _settings.copyWith(themeMode: theme);
     notifyListeners();
-    final user = FirebaseAuthInstanceUser; // Custom retrieval placeholder
   }
 
   Future<void> updateThemeModeWithUser(String userId, String theme) async {
